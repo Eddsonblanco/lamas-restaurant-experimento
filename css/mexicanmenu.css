@@ -58,7 +58,7 @@ header .menu1 a{
     }
 header .menu1 a:hover{
     text-decoration: underline;
-    color: #15284d
+    color: #1d520e;
 
 }
 
@@ -67,7 +67,7 @@ header .menu1 a:hover{
     width: 100%;
     display:inline-block;
     position: center;
-    background: #15284d;
+    background: #1d520e;
     display: flex; 
     justify-content: space-around;   
 }
@@ -92,7 +92,7 @@ header .menu1 a:hover{
     
 }
 .menu2 .titulo a:hover{
-   color: #15284d;
+   color:#1d520e;
 }
 
 
@@ -145,7 +145,7 @@ header .menu1 a:hover{
 .food .contenedor .contenedor-menu,
 .food .contenedor .contenedor-menu2 {
     border: 1px solid rgb(228, 142, 43);
-    background: #1432698c;
+    background: #1d520ead;
     padding: 10px;
     overflow: hidden;
     
@@ -159,8 +159,8 @@ header .menu1 a:hover{
 }
 
 .food .contenedor .categoria{
-    font-size: 20px;
-    font-weight: 300px;
+    font-size: 30px;
+    font-weight: 600px;
     margin-bottom: 40px;
     text-align: center;
     color: #e7aa85;
