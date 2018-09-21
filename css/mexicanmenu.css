@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family:blowbrush ;
+    src: url(../fonts/blowbrush.ttf);
+}
 *{
     margin: 0;
     padding: 0;

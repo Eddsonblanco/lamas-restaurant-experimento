@@ -34,20 +34,7 @@ header .contenedor .name h2{
     
 }
 
-header .contenedor .name  p{
-    font-size: 30px;
-    color: #e0e6e6;
-    padding-bottom: 20px;
-    text-align: center;
-    
-}
-.contenedor{
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    
-      
-}
+
 /*-------   HEADER -------*/
 
 header{
@@ -60,6 +47,15 @@ header{
     
     
 }
+
+header .contenedor .name  p{
+    font-size: 30px;
+    color: #e0e6e6;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
 header .contenedor{
     position: relative;
     
