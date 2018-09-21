@@ -1,7 +1,4 @@
-@font-face {
-    font-family:blowbrush ;
-    src: url(../fonts/blowbrush.ttf);
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -52,7 +49,7 @@ header  .menu1{
 
 header .menu1 a{
     color: #e978284b;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;    
     margin: 20px 20px;
     text-decoration: none;
@@ -61,28 +58,41 @@ header .menu1 a{
     }
 header .menu1 a:hover{
     text-decoration: underline;
+    color: #15284d
 
 }
+
+.menu2 {
+    
+    width: 100%;
+    display:inline-block;
+    position: center;
+    background: #15284d;
+    display: flex; 
+    justify-content: space-around;   
+}
+
 .menu2 a{ 
     text-decoration: none;
-    font-family: blowbrush ;
-    font-size: 50px;
-    letter-spacing: 4px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    color: #e97a28;
-    text-align: center;
+    font-family: dosis ;
+    font-size: 50px;      
+    color: #e7aa85;    
     -webkit-text-stroke: 1px black;    
     width: 100%;
-    max-width: 1000px;
-    justify-content: space-between;
-    height: 80px;
-
-
+    padding: 20px 100px
+    
 }
-.menu2 a:hover{
+
+
+
+.menu2 .titulo:hover {
+
+    font-size: 40px;
+    background: #ee9c66;
     
-    
+}
+.menu2 .titulo a:hover{
+   color: #15284d;
 }
 
 
@@ -115,56 +125,30 @@ header .menu1 a:hover{
 
 .food {
    
-    background: url(../img/textura-de-madera_23-2147511826.jpg)  #ffffff;
+    background: url(../img/textura-de-madera_23-2147511826.jpg)  #d1c7c7;
     background-repeat: repeat-y;
     background-size: 100%;
-    background-position:absolute;   
+      
     background-attachment: fixed;
 }
+ .food .contenedor-food{
+     width: 100%
+ }
+
 
 .food .contenedor{
     max-width: 1000px;
-    width: 100%
-}
-
-.menu2 {
-    
     width: 100%;
-    display:inline-block;
-    position: center;
-    background: #ece8e8;
-    display: flex;
-
     
 }
-.menu2 .titulo {
-    font-family: blowbrush ;
-    font-size: 50px;
-    letter-spacing: 4px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    color: #e97a28;
-    text-align: center;
-    -webkit-text-stroke: 1px black;    
-    width: 100%;
-    max-width: 1000px;
-    justify-content: space-between;
-    height: 80px;
-    
-}
-.menu2 .titulo:hover {
-
-    font-size: 60px;
-    background: #ee9c66;
-}
-
 
 .food .contenedor .contenedor-menu,
 .food .contenedor .contenedor-menu2 {
     border: 1px solid rgb(228, 142, 43);
-    background: #14326977;
+    background: #1432698c;
     padding: 10px;
     overflow: hidden;
+    
 }
 
 .food .contenedor article{
@@ -179,27 +163,30 @@ header .menu1 a:hover{
     font-weight: 300px;
     margin-bottom: 40px;
     text-align: center;
+    color: #e7aa85;
 }
 .food .contenedor .platillo{
     margin-bottom: 30px;
     padding-bottom: 20px;
+    color: #e7aa85;
     
 }
 .food .contenedor .nombre{
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 15px;
     float: left;
+    color: #e7aa85;
 }
 
 .food .contenedor .precio{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 15px;
     float: right;
 }
 .food .contenedor .descripcion{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 200px;
-    color: #ffffff;
+    color: #e7aa85;
     clear: both;
 }
 .menu-fixed {
@@ -218,23 +205,23 @@ header .menu1 a:hover{
 }
 
 .food .egt tr th{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500px;
-    color: #fff;
+    color: #e7aa85;
     padding: 20px;
     
     justify-content: space-between;
 }
 .food .egt tr th p{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
-    color: #fff;
+    color: #e7aa85;
     padding: 5px;
 
 }
 .food .egt tr td{
-    font-size: 12px;
-    color: #fff;
+    font-size: 14px;
+    color: #e7aa85;
     padding: 40px;
     
     justify-content: space-between;
