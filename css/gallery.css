@@ -112,7 +112,7 @@ height: auto;
 }
 
 .modal h3{
-    color: #fff;
+    color: rgb(177, 40, 40);
     font-size: 30px;
     text-align: center;
     margin: 15px 0;
@@ -120,16 +120,17 @@ height: auto;
 .imagen{
     width: 100%;
     height: auto;
-    display: flex;
+    display:flex;
     justify-content: center;
-    align-content: center;
+    align-items: center
+    
 }
 
 .imagen a{
     color: #fff;
-    font-size: 40px;
+    font-size: 100px;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .imagen img{
