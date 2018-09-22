@@ -45,19 +45,19 @@ header .contenedor{
    
 }
 
-header  .menu1{
+.contenedor .menu1{
     width: 100%;
     text-align:center;
     position: relative;}
 
 header .menu1 a{
-    color: #e978284b;
-    font-size: 30px;
+    color: #041b66;
+    font-size: 20px;
     font-weight: 600;    
     margin: 20px 20px;
     text-decoration: none;
     position: relative;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.507);
+   
     }
 header .menu1 a:hover{
     text-decoration: underline;

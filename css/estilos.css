@@ -69,14 +69,14 @@ header .menu1{
 }
 
 header .menu1 a{
-    color: #e978284b;
+    color: #041b66;
     font-size: 20px;
     font-weight: 600;    
     margin: 20px 20px;
     text-decoration: none;
     position: relative;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.507);
-}
+   
+    }
 header .menu1 a:hover{
     text-decoration: underline;
     
