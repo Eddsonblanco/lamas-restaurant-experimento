@@ -1,0 +1,213 @@
+@font-face {
+    font-family:blowbrush ;
+    src: url(../fonts/blowbrush.ttf);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+
+/*------------header----------------*/
+
+header{
+    
+    background: url('../img/LAMAS-FONDO-min.jpg');
+    background-position: 50% 20%;
+     }
+
+
+
+header  .name h2{
+    font-size: 150px;
+    font-family: blowbrush;
+    letter-spacing: 10px;    
+    color: #e97828;
+    -webkit-text-stroke: #ffffffc9 2px;    
+    text-align: CENTER;
+    
+    
+    
+}
+
+header .name  p{
+    font-size: 30px;
+    color: #e0e6e6;
+    padding-bottom: 20px;
+    text-align: center;   
+}
+
+
+header .menu1{
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+header .menu1 a{
+    color: #041b66;
+    font-size: 20px;
+    font-weight: 600;    
+    margin: 20px 20px;
+    text-decoration: none;
+    position: relative;
+   
+    }
+header .menu1 a:hover{
+    text-decoration: underline;
+}
+
+
+/*--------------FOOTER-----------------*/
+
+footer{
+    background: #383333;
+    background-size: contain;
+    color: #e0e6e6;
+    width: 100%;
+    
+    
+}
+
+.conteiner-footer-all{
+   
+    width: 100%;
+    margin: auto;
+    
+    
+}
+
+.conteiner-body{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.column1{
+    width: 400px;
+    padding: 20px;
+    margin-top: 210px;
+    margin-bottom: 210px;
+    
+    
+}
+
+.column1 h2{
+    font-size: 22px;
+
+}
+.column1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+.column2{
+    width: 400px;
+    padding: 20px;
+    margin-top: 210px;
+    margin-bottom: 210px;
+    
+}
+.column2 h2{
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+   
+    
+
+}
+
+.column2 a {
+    margin-top: 50px;
+    margin-left: 5px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px 10px;
+    justify-content: center;
+    
+    
+    
+    
+   
+}
+
+
+.twitter:hover {
+    background: #1da1f2;
+}
+
+.yelp:hover {
+    background: #af0606;
+}
+.facebook:hover {
+    background: #3b5998;
+}
+.instagram:hover {
+    background: #fd1d1d;
+}
+
+.column3{
+    width: 400px;
+    padding: 20px;
+    margin-top: 210px;
+    margin-bottom: 210px;
+    
+}
+
+.column3 h2{
+    font-size:22px;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+.column3 a{
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+   
+    text-decoration: none;
+   
+}
+
+.column3 label{
+    font-size: 18px;
+}
+
+.conteiner-footer{
+    width: 100%;
+    text-align: center;
+    background: rgb(37, 32, 32);
+    color: #c7c7c7;
+    padding: 20px;
+}
+
+
+
+@media screen and  (max-width:1200px){
+    .column1,
+    .column2,
+    .column3 {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }   
+   
+}
+
+@media screen and  (max-width:600px){
+    header .name h2{
+        font-size: 100px;
+    }
+    header .name p{
+        font-size: 20px;
+    }
+}
+
+
+

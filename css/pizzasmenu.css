@@ -208,10 +208,10 @@ header .menu1 a:hover{
 }
 
 .food .egt tr th{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500px;
     color: #e7aa85;
-    padding: 20px;
+    padding: 40px;
     
     justify-content: space-between;
 }
@@ -223,10 +223,10 @@ header .menu1 a:hover{
 
 }
 .food .egt tr td{
-    font-size: 14px;
+    font-size: 12px;
     color: #e7aa85;
     padding: 40px;
-    
+    font-weight: 200;    
     justify-content: space-between;
 
 }
