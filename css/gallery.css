@@ -149,12 +149,88 @@ height: auto;
     margin:15px auto;
     text-decoration: none;
     text-align: center;
-    font-size: 20px;`
+    font-size: 20px;
     color: black;
     padding: 10px;
     border-radius: 50%;
     line-height: 25px;
+}
 
 
+
+
+@media screen and (max-width: 700px){
+
+
+    header{
+        width: 100%;
+        background: url('../img/LAMAS-FONDO-min.jpg');
+        background-size:cover;   
+        background-attachment: scroll;
+          
+        
+        
+    }
+
+    header .contenedor .menu1 a{
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    header .name h2{
+        font-size:100px;
+    }
+    
+    header .name  p{
+        font-size: 20px;
+        color: #e0e6e6;
+        padding-bottom: 20px;
+        text-align: center;
+        
+    }
+    
+    .modal a {
+        font-size:25px;
+        margin: 0 
+    }
+    .modal .close{
+        display: block;
+        background: #fff;
+        width: 25px;
+        height: 25px;
+        margin: auto;
+        text-decoration: none;
+        text-align: center;
+        font-size: 10px;
+        color: black;
+        padding: 5px;
+        border-radius: 50%;
+        line-height: 25px;
+    }
+    
 
 }
+
+
+    @media screen and (max-width: 600px){
+        
+        header .contenedor .menu1 a{
+            color: #041b66;
+            font-size: 15px;
+            font-weight: 600;    
+            margin: 10px 10px;
+            text-decoration: none;
+            position: relative;           
+        }
+
+        header .name h2{
+        font-size: 75px;
+        }
+        
+        header .name  p{
+            font-size: 15px;
+            color: #e0e6e6;
+            padding-bottom: 20px;
+            text-align: center;
+            
+        }

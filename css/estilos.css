@@ -304,28 +304,19 @@ body footer .contenedor .socialmedia p{
 
 }
 
-@media screen and (max-width: 600px){
 
-
-    .main .acerca-de .slider{
-        padding:3px;
-        background-color:  #cfbeb2cc;
-        margin-top: 200px;
-        left: 0px;
-        
-    }
-
-    .main .acerca-de .contenedor article{
-        background: #e0e6e6;
-        padding: 20px;
-        margin-top:10px;   
-        margin-bottom: 10px;
-        box-shadow: 0px 2px 10px #e7d9ce;        
-    }
 
     @media screen and (max-width: 600px){
 
-
+        header .menu1 a{
+            color: #041b66;
+            font-size: 15px;
+            font-weight: 600;    
+            margin: 10px 10px;
+            text-decoration: none;
+            position: relative;
+           
+            }
         .main .acerca-de .slider{
             padding:3px;
             background-color:  #cfbeb2cc;
