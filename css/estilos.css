@@ -120,10 +120,7 @@ header .text h4 {
     display: flex;
     
 }
-.main .acerca-de .contenedor{
-    box-flex:
-    
-}
+
 
 .main .acerca-de .contenedor article{
     background: #e0e6e6;
@@ -225,6 +222,14 @@ body footer .contenedor{
 }
 body footer .contenedor .socialmedia p{
     font-size: 100px;
+}
+
+.conteiner-footer{
+    width: 100%;
+    text-align: center;
+    background: rgb(37, 32, 32);
+    color: #c7c7c7;
+    padding: 20px;
 }
 
 

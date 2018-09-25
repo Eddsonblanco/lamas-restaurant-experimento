@@ -200,33 +200,136 @@ header .menu1 a:hover{
 	box-shadow:0px 4px 3px rgba(0,0,0,.5);
 }
 
-.food .egt{
+.conteiner-footer{
     width: 100%;
-    display: inline-flex;
-    
-    
-}
-
-.food .egt tr th{
-    font-size: 30px;
-    font-weight: 500px;
-    color: #e7aa85;
+    text-align: center;
+    background: rgb(37, 32, 32);
+    color: #c7c7c7;
     padding: 20px;
-    
-    justify-content: space-between;
 }
-.food .egt tr th p{
-    font-size: 20px;
-    font-weight: 200;
-    color: #e7aa85;
-    padding: 5px;
+
+/*_____________MEDIAQUERIES________________*/
+
+
+
+@media screen and  (max-width:1000px){
+
+    header{
+        height: auto;
+    }
+
+
+    header .menu1 a{
+        color: #041b66;
+        font-size: 20px;
+        font-weight: 600;    
+        margin: 10px 10px;
+        text-decoration: none;
+        position: relative;
+    }
+
+   
+
+    .name h2{
+        font-size: 100px;
+        font-family: blowbrush;
+        letter-spacing: 6px;
+        
+        color: #ff7410;
+        -webkit-text-stroke: #ffffffc9 2px;
+        
+        text-align: CENTER;
+        margin-top: 50px;
+    }
+    
+    .name  p{
+        font-size: 30px;
+        color: #e0e6e6;
+        padding-bottom: 20px;
+        text-align: center;
+        
+    }
+   
+
+    .menu2 {
+    
+        width: 100%;
+        display:inline-block;
+        position: center;
+        background: #991818;
+        display: flex; 
+        justify-content: center; 
+    }
+    
+    .menu2 a{ 
+        text-decoration: none;
+        font-family: dosis ;
+        font-size: 30px;      
+        color: #e7aa85;    
+        -webkit-text-stroke: 1px black;    
+        width: 100%;
+        padding: 10px 20px;
+    }
+        .food .contenedor article{
+            width: 50%;
+            float: left;
+            padding: 20px;
+            color: rgb(255, 255, 255);
+        }
+        
+        .food .contenedor .categoria{
+            font-size: 10px;
+            font-weight: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #e7aa85;
+        }
+        .food .contenedor .platillo{
+            margin-bottom: 10px;
+            padding: 20px;
+            color: #e7aa85;
+            
+        }
+        .food .contenedor .nombre{
+            font-size: 15px;
+            margin-bottom: 15px;
+            float: left;
+            color: #e7aa85;
+        }
+        
+        .food .contenedor .precio{
+            font-size: 10px;
+            margin-bottom: 15px;
+            float: right;
+        }
+        .food .contenedor .descripcion{
+            font-size: 10px;
+            font-weight: 200px;
+            color: #e7aa85;
+            clear: both;
+        
+    }
 
 }
-.food .egt tr td{
-    font-size: 14px;
-    color: #e7aa85;
-    padding: 40px;
-    
-    justify-content: space-between;
+
+@media screen and  (max-width:600px){
+    .food .contenedor .contenedor-menu,
+    .food .contenedor .contenedor-menu2 {
+    border: 0px solid rgb(228, 142, 43);
+    background: #680707b0;
+    padding:5px;
+    overflow: hidden;
+    }
+
+    .menu2 a{ 
+        text-decoration: none;
+        font-family: dosis ;
+        font-size: 20px;      
+        color: #e7aa85;    
+        -webkit-text-stroke: 1px black;    
+        width: 100%;
+        padding: 10px 10px;
+    }
+
 
 }
